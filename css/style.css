@@ -21,9 +21,9 @@
 /* .debug .col-small {
     background-color: aqua;
 } */
-.debug .col-big {
+/* .debug .col-big {
     background-color: lightgrey;
-}
+} */
 /* .debug .hero {
     height: 600px;
 } */
@@ -104,7 +104,7 @@ header {
     padding: 15px 17px;
 }
 .btn-box {
-    margin: 32px 0;
+    margin: 20px 0;
 }
 /*------------
     MAIN
@@ -115,15 +115,20 @@ header {
 }
 .hero .row {
     padding-top: 74px;
+    /* position: relative; */
+    /* bottom: -62px; */
 }
 .hero .col-small .unsubscribe {
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 .go-to-the-plans i {
     font-size: 42px;
 }
 .hero .go-to-the-plans {
     padding-bottom: 20px;
+}
+.col-big img {
+    width: 100%;
 }
 /*------------
     FOOTER
