@@ -18,6 +18,15 @@
     background-color: goldenrod;
 
 } */
+.debug .col-small {
+    background-color: aqua;
+}
+.debug .col-big {
+    background-color: lightgrey;
+}
+.debug .hero {
+    height: 600px;
+}
 /*------------
     TYPOGRAPHY
 --------------*/
@@ -29,7 +38,20 @@ body {
 /*------------
     COMMON
 --------------*/
-
+.container {
+    max-width: 1100px;
+    margin: auto;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+.col-small {
+    width: 30%;
+}
+.col-big {
+    width: 60%;
+}
 /*------------
     HEADER
 --------------*/
@@ -38,9 +60,12 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 28px 20px;
+    position: sticky;
+    top: 0;
+    background-color: white;
 }
 .menu-nav {
-    width: 35%;
+    width: 30%;
 }
 .list-inline {
     display: flex;
@@ -65,7 +90,6 @@ header {
 --------------*/
 .btn {
     border: none;
-    background-color: transparent;
     font-size: inherit;
 }
 .btn.btn-primary {
@@ -75,10 +99,16 @@ header {
 .menu-nav.right .btn-small {
     padding: 10px 14px;
 }
+.hero .btn-big {
+    padding: 15px;
+}
 /*------------
     MAIN
 --------------*/
-
+.hero {
+    background-color: #b4d0e7;
+    padding-top: 100px;
+}
 /*------------
     FOOTER
 --------------*/
