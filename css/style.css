@@ -14,6 +14,10 @@
     height: 80px;
     background-color: aqua;
 }
+.debug .menu-nav {
+    background-color: goldenrod;
+
+}
 /*------------
     TYPOGRAPHY
 --------------*/
@@ -31,10 +35,21 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .menu-nav {
     width: 30%;
-    background-color: goldenrod;
+}
+.list-inline {
+    display: flex;
+    list-style: none;
+}
+.list-inline li a {
+    text-decoration: none;
+    color: inherit;
+}
+.menu-nav.right .list-inline {
+    justify-content: flex-end;
 }
 /*------------
     BUTTONS
