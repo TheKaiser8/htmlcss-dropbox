@@ -8,6 +8,13 @@
 }
 
 /*------------
+    DEBUG
+--------------*/
+.debug header {
+    height: 80px;
+    background-color: aqua;
+}
+/*------------
     TYPOGRAPHY
 --------------*/
 body {
@@ -21,7 +28,14 @@ body {
 /*------------
     HEADER
 --------------*/
-
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.menu-nav {
+    width: 30%;
+    background-color: goldenrod;
+}
 /*------------
     BUTTONS
 --------------*/
