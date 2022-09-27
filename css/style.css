@@ -8,26 +8,6 @@
 }
 
 /*------------
-    DEBUG
---------------*/
-/* .debug header {
-    height: 80px;
-    background-color: aqua;
-} */
-/* .debug .menu-nav {
-    background-color: goldenrod;
-
-} */
-/* .debug .col-small30 {
-    background-color: aqua;
-} */
-/* .debug .col-big70 {
-    background-color: lightgrey;
-} */
-/* .debug .hero {
-    height: 600px;
-} */
-/*------------
     TYPOGRAPHY
 --------------*/
 body {
@@ -63,6 +43,12 @@ h2 {
 }
 .col-big70 {
     width: 70%;
+}
+.col-big60 {
+    width: 60%;
+}
+.col-small40 {
+    width: 40%;
 }
 .list-block {
     list-style: none;
@@ -124,6 +110,11 @@ h2 {
 #plans .btn-big {
     width: 100%;
 }
+.btn.btn-secondary {
+    background-color: white;
+    color: black;
+    border: 1px solid;
+}
 /*------------
     MAIN
 --------------*/
@@ -157,7 +148,7 @@ h2 {
     margin-right: 30px;
 }
 .plans-list {
-    margin: 50px;
+    margin: 50px 0;
 }
 .plan-item {
     height: 100%;
@@ -192,16 +183,24 @@ h2 {
 #plans .list-block.icon-check i {
     color: #0061ff;
 }
-#plans .plan-item .mb-20 {
+.mb-20 {
     margin-bottom: 20px;
 }
-#plans .mtb-40 {
+.mtb-40 {
     margin: 40px 0;
 }
-#plans .mt-50 {
+.mt-50 {
     margin-top: 50px;
 }
-
+#partners {
+    padding-top: 100px;
+}
+#partners .img-partner {
+    width: 100%;
+}
+#partners article {
+    padding: 50px;
+}
 /*------------
     FOOTER
 --------------*/
