@@ -121,11 +121,15 @@ h2 {
 .btn-box {
     margin: 25px 0;
 }
+#plans .btn-big {
+    width: 100%;
+}
 /*------------
     MAIN
 --------------*/
 #hero {
     background-color: #b4d0e7;
+    margin-top: 70px;
     padding-top: 100px;
 }
 #hero .row-flex {
@@ -141,7 +145,7 @@ h2 {
 #hero .go-to-the-plans {
     padding-bottom: 20px;
 }
-.col-big70 img {
+.col-big70 .jumbo {
     width: 100%;
 }
 #plans {
@@ -171,6 +175,10 @@ h2 {
     display: flex;
     align-items: baseline;
 }
+.user-and-period {
+    font-weight: lighter;
+    color: #66686b;
+}
 .list-block li i {
     padding-right: 10px;
 }
@@ -187,9 +195,13 @@ h2 {
 #plans .plan-item .mb-20 {
     margin-bottom: 20px;
 }
-#plans .mbt-40 {
+#plans .mtb-40 {
     margin: 40px 0;
 }
+#plans .mt-50 {
+    margin-top: 50px;
+}
+
 /*------------
     FOOTER
 --------------*/
