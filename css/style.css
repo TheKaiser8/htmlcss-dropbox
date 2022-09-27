@@ -216,7 +216,12 @@ h2 {
 .img-business-feature {
     width: 100%;
 }
-
+.pt-150 {
+    padding-top: 150px;
+}
+#dropbox-business .link-client a{
+    color: #0000ee;
+}
 /*------------
     FOOTER
 --------------*/
