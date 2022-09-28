@@ -110,7 +110,7 @@ h2 {
 .btn-box {
     margin: 25px 0;
 }
-#plans .btn-big {
+#plans, #client .btn-big {
     width: 100%;
 }
 .btn.btn-secondary {
@@ -118,8 +118,11 @@ h2 {
     color: black;
     border: 1px solid;
 }
-#plans .btn-box:last-child {
+#plans, #client .btn-box:last-child {
     margin: 0;
+}
+#client .btn.btn-secondary.btn-big {
+    border: none;
 }
 /*------------
     MAIN
@@ -206,6 +209,9 @@ h2 {
 .mb-50 {
     margin-bottom: 50px;
 }
+.mt-100 {
+    margin-top: 100px;
+}
 #partners {
     padding-top: 100px;
 }
@@ -217,15 +223,37 @@ h2 {
 }
 #dropbox-business {
     padding-top: 100px;
+    margin-bottom: 50px;
 }
 .img-business-feature {
     width: 100%;
 }
-.pt-150 {
-    padding-top: 150px;
+#client {
+    padding-top: 100px;
 }
-#dropbox-business .link-client a{
+#client .link-client a{
     color: #0000ee;
+}
+#client .square {
+    height: calc(100vw / 3);
+    width: calc(100vw / 3);
+    display: flex;
+}
+.square.center {
+    background-color: #f5f5f5;
+    overflow-y: auto;
+}
+.sub-square {
+    height: 50%;
+    width: 50%;
+    border: 1px solid;
+}
+.client-row {
+    background-color: #b4d0e7;
+    padding: 120px 0;
+}
+#client .client-row h2 {
+    color: #61082b;
 }
 /*------------
     FOOTER
