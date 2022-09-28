@@ -116,7 +116,7 @@ hr {
 .btn-box {
     margin: 25px 0;
 }
-#plans, #client .btn-big {
+#plans .btn-big {
     width: 100%;
 }
 .btn.btn-secondary {
@@ -124,11 +124,17 @@ hr {
     color: black;
     border: 1px solid;
 }
-#plans, #client .btn-box:last-child {
+#plans .btn-box:last-child {
     margin: 0;
 }
 #client .btn.btn-secondary.btn-big {
     border: none;
+}
+#client .btn-big {
+    width: 100%;
+}
+#client .btn-box {
+    margin: 0;
 }
 /*------------
     MAIN
