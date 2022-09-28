@@ -270,10 +270,9 @@ hr {
 }
 .img-client {
     width: 50%;
-    filter: invert(1);
 }
-.square.center .img-client {
-    filter: invert(0);
+.sub-square .img-client {
+    filter: invert(1);
 }
 #client .sub-square:only-child(1) {
     padding: 15px;
