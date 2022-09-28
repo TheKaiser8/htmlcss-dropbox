@@ -19,7 +19,9 @@ h1 {
 h2 {
     font-size: 30px;
 }
-
+h5 {
+    font-size: 18px;
+}
 /*------------
     COMMON
 --------------*/
@@ -58,6 +60,12 @@ h2 {
     border: none;
     background-color: #d0d0d3;
 }
+.hr-50 {
+    width: 50%;
+    height: 1px;
+    border: none;
+    background-color: #d0d0d3;
+}
 .wrap {
     flex-wrap: wrap;
 }
@@ -70,6 +78,9 @@ h2 {
 .mtb-40 {
     margin: 40px 0;
 }
+.mtb-50 {
+    margin: 50px 0;
+}
 .mt-50 {
     margin-top: 50px;
 }
@@ -81,6 +92,9 @@ h2 {
 }
 .mb-40 {
     margin-bottom: 40px;
+}
+.mt-30 {
+    margin-top: 30px;
 }
 .pt-100 {
     padding-top: 100px;
@@ -119,7 +133,7 @@ h2 {
 .menu-nav.right .list-inline {
     justify-content: flex-end;
 }
-.list-inline li a {
+#main-header .list-inline li a {
     text-decoration: none;
     color: inherit;
 }
@@ -310,3 +324,25 @@ h2 {
 /*------------
     FOOTER
 --------------*/
+#main-footer {
+    background-color: black;
+    font-size: 14px;
+    color: white;
+}
+.col-small15 {
+    width: 15%;
+}
+#main-footer .list-block li a {
+    text-decoration: none;
+    color: inherit;
+}
+.language {
+    color: #999999;
+}
+.language i {
+    margin-right: 5px;
+}
+.language i:last-child {
+    margin-left: 2px;
+    vertical-align: middle;
+}
