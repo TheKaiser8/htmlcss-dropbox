@@ -14,7 +14,7 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 h1 {
-    font-size: 60px;
+    font-size: 65px;
 }
 h2 {
     font-size: 30px;
@@ -70,7 +70,7 @@ h2 {
     right: 0;
     z-index: 100;
     background-color: white;
-    border-bottom: 1px solid #d0d0d3;
+    box-shadow: 0px 0px 5px 2px rgb(0 0 0 / 20%);
 }
 .menu-nav {
     width: 40%;
@@ -117,6 +117,9 @@ h2 {
     background-color: white;
     color: black;
     border: 1px solid;
+}
+#plans .btn-box:last-child {
+    margin: 0;
 }
 /*------------
     MAIN
@@ -178,7 +181,9 @@ h2 {
 }
 #plans .item hr {
     width: 20%;
-    color: #d0d0d3;
+    height: 1px;
+    border: none;
+    background-color: #d0d0d3;
 }
 #plans .buy-now a {
     color: #0000ee;
