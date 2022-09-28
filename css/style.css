@@ -19,6 +19,9 @@ h1 {
 h2 {
     font-size: 30px;
 }
+h3 {
+    font-size: 20px;
+}
 h5 {
     font-size: 18px;
 }
@@ -60,8 +63,8 @@ h5 {
     border: none;
     background-color: #d0d0d3;
 }
-.hr-50 {
-    width: 50%;
+.hr-10 {
+    width: 10%;
     height: 1px;
     border: none;
     background-color: #d0d0d3;
@@ -69,6 +72,10 @@ h5 {
 .wrap {
     flex-wrap: wrap;
 }
+
+/*-------------------
+    MARGIN E PADDING
+----------------------*/
 .mb-70 {
     margin-bottom: 70px;
 }
@@ -77,9 +84,6 @@ h5 {
 }
 .mtb-40 {
     margin: 40px 0;
-}
-.mtb-50 {
-    margin: 50px 0;
 }
 .mt-50 {
     margin-top: 50px;
@@ -104,6 +108,9 @@ h5 {
 }
 .ptb-150 {
     padding: 150px 0;
+}
+.pb-50 {
+    padding-bottom: 50px;
 }
 /*------------
     HEADER
