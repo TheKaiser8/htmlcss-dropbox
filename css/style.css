@@ -103,6 +103,9 @@ h5 {
 .pt-100 {
     padding-top: 100px;
 }
+.pad-all20 {
+    padding: 20px;
+}
 .pr-50 {
     padding-right: 50px;
 }
@@ -229,9 +232,6 @@ h5 {
     text-align: center;
     padding: 10px;
     border-bottom: 1px solid #d0d0d3;
-}
-#plans article {
-    padding: 20px;
 }
 #plans .list-block li {
     display: flex;
