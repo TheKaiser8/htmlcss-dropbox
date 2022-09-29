@@ -318,7 +318,7 @@ h5 {
     background-color: #b4d0e7;
     padding: 120px 0;
 }
-#client .your-company-row h2 {
+.your-company-row .title-colored {
     color: #61082b;
 }
 #faq .list-block li {
